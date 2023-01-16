@@ -10,7 +10,7 @@ class Program
 
         Console.WriteLine("Sisesta oma pikkus (m):");
         var pikkus = Convert.ToDouble(Console.ReadLine());
-
+        // BMI arvutamise valem ja valikud, mis annavad hinnangu kehakaalule.
 
         double bmi = kaal / (pikkus * pikkus);
         string misKaalus = "";
@@ -32,7 +32,7 @@ class Program
         }
 
         Console.WriteLine($"BMI: {bmi:0.#}");
-        Console.WriteLine($"Weight status:{misKaalus}");
+        Console.WriteLine($"Sinu kehakaal:{misKaalus}");
     }
 }
    
